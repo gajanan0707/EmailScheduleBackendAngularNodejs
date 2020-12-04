@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+.env
+functions 
+.firebaserc
+database.rules.json
+emailshdeule-firebase-adminsdk-yg3rz-a74475a712
+firebase.json
+firestore.rules
