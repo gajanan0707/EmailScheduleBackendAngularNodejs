@@ -80,13 +80,13 @@ async function sendMail(req, res, next) {
             let mailTransporter = nodemailer.createTransport({
               service: "gmail",
               auth: {
-                user: "abd.bodara@gmail.com",
-                pass: "password123#"
+                user: "your email",
+                pass: "your password"
               }
             });
             //---------------Setting credentials-----------------------------
             let mailDetails = {
-              from: "abd.bodara@gmail.com",
+              from: "your email",
               to: userEmailList,
               subject: "The answer to life, the universe, and everything!❤️",
               html: '<button style="background-color: gold"><a style="color: #040404;" href="http://localhost:4200/snoozegetOn">Start Snooze</a></button> <hr><button style="background-color: red"><a style="color: #040404;" href="http://localhost:4200/snoozegetOn"">Stop Snooze</a></button>',
@@ -171,7 +171,7 @@ async function sendMail(req, res, next) {
                               sendsnoozetime:1
                             })
                             let mailDetails = {
-                              from: "abd.bodara@gmail.com",
+                              from: "your password",
                               to: useremailall,
                               subject: "The answer to life, the universe, and everything!❤️",
                               html: '<button style="background-color: gold"><a style="color: #040404;" href="http://localhost:4200/snoozegetOn">Start Snooze</a></button> <hr><button style="background-color: red"><a style="color: #040404;" href="http://localhost:4200/snoozegetOn"">Stop Snooze</a></button>',
